@@ -1,0 +1,9 @@
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]  # 启用错误、Pyflakes、isort 规则
+
+[tool.ruff.format]
+quote-style = "double"
